@@ -62,12 +62,18 @@ a.btn{display:inline-block;background:var(--ac);color:#fff;border-radius:8px;pad
 <h1>Códigos EAN de Shopify con AECOC</h1>
 <p class="s">Sigue los 7 pasos en orden. Los marcados «En esta página» se hacen aquí abajo; los demás, en Shopify o en AECOC (te dejo el enlace).</p>
 <nav id="steps" aria-label="Pasos"><button data-n="1"><b>1</b> Añadir</button><button data-n="2"><b>2</b> Exportar</button><button data-n="3"><b>3</b> Convertir</button><button data-n="4"><b>4</b> AECOC</button><button data-n="5"><b>5</b> Descargar</button><button data-n="6"><b>6</b> Rellenar EAN</button><button data-n="7"><b>7</b> Importar</button></nav>
-<section class="step hide" data-n="1"><div class="card"><div class="meta"><span class="badge">Paso 1 de 7</span><span class="where out">↗ Fuera de esta página</span></div><h2>Añade el producto o la variante nuevos en Shopify</h2><p class="lead">Primero crea lo nuevo en Shopify, como haces siempre. Esto se hace fuera de esta página.</p><div class="cols"><ol class="how"><li>Pulsa el botón de abajo para abrir <b>Añadir producto</b> en Shopify.</li><li>Rellena el título, el <b>Tipo de producto</b>, el proveedor y las opciones (color y talla).</li><li>Pon un <b>SKU</b> a cada variante, con tu formato <b>Ref-Número-Color-Talla</b>. Sin SKU la variante se ignora.</li><li>Pulsa <b>Guardar</b>.</li></ol><div class="ill"><svg viewBox="0 0 360 170" role="img" aria-label="Ilustración: Shopify · Añadir producto"><rect class="s-f" x="8" y="8" width="344" height="154" rx="10"/><text class="s-t" x="22" y="30" font-weight="700">Shopify · Añadir producto</text><rect class="s-ln" x="8" y="40" width="344" height="1.5"/><text class="s-m" x="22" y="65">Título</text><rect class="s-f" x="150" y="54" width="190" height="15" rx="4"/><rect class="s-ln" x="156" y="59" width="60" height="5" rx="2"/><text class="s-m" x="22" y="89">Tipo de producto</text><rect class="s-f" x="150" y="78" width="190" height="15" rx="4"/><rect class="s-ln" x="156" y="83" width="101" height="5" rx="2"/><text class="s-m" x="22" y="113">SKU de la variante</text><rect class="s-f" x="150" y="102" width="190" height="15" rx="4"/><rect class="s-ln" x="156" y="107" width="142" height="5" rx="2"/><rect class="s-ring" x="265" y="128" width="73" height="26" rx="7"/><rect class="s-hl" x="267" y="130" width="69" height="22" rx="6"/><text class="s-w" x="277" y="145">Guardar</text></svg></div></div><div class="tip">💡 El <b>Tipo de producto</b> decide el código GPC que se rellena solo en el paso 3. Si usas un tipo nuevo, ese código saldrá en amarillo o vacío y tendrás que ponerlo tú.</div><div class="row" style="margin-top:12px"><a class="btn" href="https://admin.shopify.com/store/linenmore/products/new" target="_blank" rel="noopener">Abrir «Añadir producto» en Shopify ↗</a></div></div></section><section class="step hide" data-n="2"><div class="card"><div class="meta"><span class="badge">Paso 2 de 7</span><span class="where out">↗ Fuera de esta página</span></div><h2>Exporta solo lo que acabas de añadir</h2><p class="lead">No exportes toda la tienda: solo los productos nuevos (o los que tienen variantes nuevas).</p><div class="cols"><ol class="how"><li>En Shopify entra en <b>Productos</b>.</li><li>Marca la casilla <b>solo de los productos nuevos</b>.</li><li>Pulsa <b>Exportar</b> y elige <b>Productos seleccionados</b>.</li><li>Elige formato <b>CSV</b> y descarga el archivo. <b>Guárdalo bien</b>: lo usarás en el paso 3 y otra vez en el 6.</li></ol><div class="ill"><svg viewBox="0 0 360 170" role="img" aria-label="Ilustración: Shopify · Productos"><rect class="s-f" x="8" y="8" width="344" height="154" rx="10"/><text class="s-t" x="22" y="30" font-weight="700">Shopify · Productos</text><rect class="s-ln" x="8" y="40" width="344" height="1.5"/><rect class="s-f" x="22" y="54" width="14" height="14" rx="3"/><path d="M25 61 l3 3 l6 -7" class="s-ck"/><text class="s-t" x="44" y="65">Vestido lino nuevo</text><rect class="s-ln" x="190" y="58" width="120" height="7" rx="3"/><rect class="s-f" x="22" y="78" width="14" height="14" rx="3"/><path d="M25 85 l3 3 l6 -7" class="s-ck"/><text class="s-t" x="44" y="89">Blusa lino nueva</text><rect class="s-ln" x="190" y="82" width="157" height="7" rx="3"/><text class="s-m" x="22" y="113">Falda (antigua)</text><rect class="s-f" x="150" y="102" width="190" height="15" rx="4"/><rect class="s-ln" x="156" y="107" width="142" height="5" rx="2"/><rect class="s-ring" x="258" y="128" width="80" height="26" rx="7"/><rect class="s-hl" x="260" y="130" width="76" height="22" rx="6"/><text class="s-w" x="270" y="145">Exportar</text></svg></div></div><div class="tip">💡 No abras ni guardes este CSV con Excel: podría estropear los datos. Déjalo tal cual lo descargas.</div><div class="row" style="margin-top:12px"><a class="btn" href="https://admin.shopify.com/store/linenmore/products" target="_blank" rel="noopener">Abrir Productos en Shopify ↗</a></div></div></section><section class="step hide" data-n="3"><div class="card"><div class="meta"><span class="badge">Paso 3 de 7</span><span class="where in">● En esta página</span></div><h2>Conviértelo al formato de AECOC</h2><p class="lead">Aquí empieza la herramienta. Transforma tu CSV de Shopify en el Excel que pide AECOC.</p><div class="cols"><ol class="how"><li>Arrastra aquí abajo el <b>CSV del paso 2</b> (o haz clic para elegirlo).</li><li>Espera unos segundos y pulsa <b>Descargar</b> (la Parte 1, o todas en ZIP si hay más de una).</li><li>Mira los avisos: lo marcado en <span class="y">amarillo</span> conviene revisarlo (GPC aproximado, imagen que no es JPG/PNG, SKU repetido).</li></ol><div class="ill"><svg viewBox="0 0 360 150" role="img" aria-label="Ilustración: CSV de Shopify (paso 2) → Esta herramienta → Excel para AECOC"><rect class="s-f" x="8" y="35" width="108" height="80" rx="12"/><text class="s-t" x="62" y="62" text-anchor="middle">CSV de Shopify</text><text class="s-t" x="62" y="79" text-anchor="middle">(paso 2)</text><path class="s-ar" d="M120 75 h10 m-5 -5 l5 5 l-5 5"/><rect class="s-hl" x="126" y="35" width="108" height="80" rx="12"/><text class="s-w" x="180" y="62" text-anchor="middle">Esta</text><text class="s-w" x="180" y="79" text-anchor="middle">herramienta</text><path class="s-ar" d="M238 75 h10 m-5 -5 l5 5 l-5 5"/><rect class="s-f" x="244" y="35" width="108" height="80" rx="12"/><text class="s-t" x="298" y="62" text-anchor="middle">Excel para</text><text class="s-t" x="298" y="79" text-anchor="middle">AECOC</text></svg></div></div><div class="tip">💡 Si alguna imagen no es JPG o PNG, la herramienta te lo explica y te ayuda a convertirla.</div></div><div id="toolA">
+<section class="step hide" data-n="1"><div class="card"><div class="meta"><span class="badge">Paso 1 de 7</span><span class="where out">↗ Fuera de esta página</span></div><h2>Añade el producto o la variante nuevos en Shopify</h2><p class="lead">Primero crea lo nuevo en Shopify, como haces siempre. Esto se hace fuera de esta página.</p><div class="cols"><ol class="how"><li>Pulsa el botón de abajo para abrir <b>Añadir producto</b> en Shopify.</li><li>Rellena el título, el <b>Tipo de producto</b>, el proveedor y las opciones (color y talla).</li><li>Pon un <b>SKU</b> a cada variante, con tu formato <b>Ref-Número-Color-Talla</b>. Sin SKU la variante se ignora.</li><li>Pulsa <b>Guardar</b>.</li></ol><div class="ill"><svg viewBox="0 0 360 170" role="img" aria-label="Ilustración: Shopify · Añadir producto"><rect class="s-f" x="8" y="8" width="344" height="154" rx="10"/><text class="s-t" x="22" y="30" font-weight="700">Shopify · Añadir producto</text><rect class="s-ln" x="8" y="40" width="344" height="1.5"/><text class="s-m" x="22" y="65">Título</text><rect class="s-f" x="150" y="54" width="190" height="15" rx="4"/><rect class="s-ln" x="156" y="59" width="60" height="5" rx="2"/><text class="s-m" x="22" y="89">Tipo de producto</text><rect class="s-f" x="150" y="78" width="190" height="15" rx="4"/><rect class="s-ln" x="156" y="83" width="101" height="5" rx="2"/><text class="s-m" x="22" y="113">SKU de la variante</text><rect class="s-f" x="150" y="102" width="190" height="15" rx="4"/><rect class="s-ln" x="156" y="107" width="142" height="5" rx="2"/><rect class="s-ring" x="265" y="128" width="73" height="26" rx="7"/><rect class="s-hl" x="267" y="130" width="69" height="22" rx="6"/><text class="s-w" x="277" y="145">Guardar</text></svg></div></div><div class="tip">💡 El <b>Tipo de producto</b> decide el código GPC que se rellena solo en el paso 3. Si usas un tipo nuevo, ese código saldrá en amarillo o vacío y tendrás que ponerlo tú.</div><div class="row" style="margin-top:12px"><a class="btn" href="https://admin.shopify.com/store/linenmore/products/new" target="_blank" rel="noopener">Abrir «Añadir producto» en Shopify ↗</a></div></div></section><section class="step hide" data-n="2"><div class="card"><div class="meta"><span class="badge">Paso 2 de 7</span><span class="where out">↗ Fuera de esta página</span></div><h2>Exporta el CSV de productos de Shopify</h2><p class="lead">Puedes exportar solo lo nuevo o todo el catálogo: en el paso 3 eliges con qué variantes seguir.</p><div class="cols"><ol class="how"><li>En Shopify entra en <b>Productos</b>.</li><li>Pulsa <b>Exportar</b>: elige <b>todos los productos</b> o solo los nuevos (los que marques).</li><li>Elige formato <b>CSV</b> y descarga el archivo.</li><li><b>Guárdalo bien</b>: lo usarás en el paso 3 y otra vez en el 6.</li></ol><div class="ill"><svg viewBox="0 0 360 170" role="img" aria-label="Ilustración: Shopify · Productos"><rect class="s-f" x="8" y="8" width="344" height="154" rx="10"/><text class="s-t" x="22" y="30" font-weight="700">Shopify · Productos</text><rect class="s-ln" x="8" y="40" width="344" height="1.5"/><rect class="s-f" x="22" y="54" width="14" height="14" rx="3"/><path d="M25 61 l3 3 l6 -7" class="s-ck"/><text class="s-t" x="44" y="65">Vestido lino nuevo</text><rect class="s-ln" x="190" y="58" width="120" height="7" rx="3"/><rect class="s-f" x="22" y="78" width="14" height="14" rx="3"/><path d="M25 85 l3 3 l6 -7" class="s-ck"/><text class="s-t" x="44" y="89">Blusa lino nueva</text><rect class="s-ln" x="190" y="82" width="157" height="7" rx="3"/><rect class="s-f" x="22" y="102" width="14" height="14" rx="3"/><text class="s-t" x="44" y="113">Falda (antigua)</text><rect class="s-ln" x="190" y="106" width="134" height="7" rx="3"/><rect class="s-ring" x="258" y="128" width="80" height="26" rx="7"/><rect class="s-hl" x="260" y="130" width="76" height="22" rx="6"/><text class="s-w" x="270" y="145">Exportar</text></svg></div></div><div class="tip">💡 No abras ni guardes este CSV con Excel. Si exportas todo el catálogo no pasa nada: en el paso 3 podrás marcar solo las variantes que no tienen EAN y no tienen incoherencias.</div><div class="row" style="margin-top:12px"><a class="btn" href="https://admin.shopify.com/store/linenmore/products" target="_blank" rel="noopener">Abrir Productos en Shopify ↗</a></div></div></section><section class="step hide" data-n="3"><div class="card"><div class="meta"><span class="badge">Paso 3 de 7</span><span class="where in">● En esta página</span></div><h2>Conviértelo al formato de AECOC</h2><p class="lead">Aquí empieza la herramienta. Transforma tu CSV de Shopify en el Excel que pide AECOC.</p><div class="cols"><ol class="how"><li>Arrastra aquí abajo el <b>CSV del paso 2</b> (o haz clic para elegirlo).</li><li>Aparece la lista de variantes. <b>Elige con cuáles seguir</b>: «Recomendado» marca solo las que no tienen EAN y no tienen incoherencias (SKU repetido, o color/talla que no coinciden con el SKU).</li><li>Pulsa <b>Continuar con la selección</b>, espera y <b>descarga</b> el Excel (la Parte 1, o todas en ZIP si hay varias).</li><li>Mira los avisos en <span class="y">amarillo</span> (GPC aproximado, imagen que no es JPG/PNG).</li></ol><div class="ill"><svg viewBox="0 0 360 150" role="img" aria-label="Ilustración: CSV de Shopify (paso 2) → Esta herramienta → Excel para AECOC"><rect class="s-f" x="8" y="35" width="108" height="80" rx="12"/><text class="s-t" x="62" y="62" text-anchor="middle">CSV de Shopify</text><text class="s-t" x="62" y="79" text-anchor="middle">(paso 2)</text><path class="s-ar" d="M120 75 h10 m-5 -5 l5 5 l-5 5"/><rect class="s-hl" x="126" y="35" width="108" height="80" rx="12"/><text class="s-w" x="180" y="62" text-anchor="middle">Esta</text><text class="s-w" x="180" y="79" text-anchor="middle">herramienta</text><path class="s-ar" d="M238 75 h10 m-5 -5 l5 5 l-5 5"/><rect class="s-f" x="244" y="35" width="108" height="80" rx="12"/><text class="s-t" x="298" y="62" text-anchor="middle">Excel para</text><text class="s-t" x="298" y="79" text-anchor="middle">AECOC</text></svg></div></div><div class="tip">💡 Si alguna imagen no es JPG o PNG, la herramienta te lo explica y te ayuda a convertirla.</div></div><div id="toolA">
 
 
 <div class="card"><div id="drop">Arrastra aquí el CSV de Shopify o haz clic para elegirlo<input id="f" type="file" accept=".csv,text/csv" class="hide"></div></div>
 <div id="errbox" class="card err hide"></div>
 
+<div id="selcard" class="card hide"><b>Elige con qué variantes continuar</b>
+<p style="color:var(--mut);margin:6px 0 10px">«Recomendado» marca solo las que <b>no tienen EAN</b> y <b>no tienen incoherencias</b> (SKU repetido, o color/talla que no coinciden con el SKU). Puedes marcar o desmarcar cada una a mano.</p>
+<div class="row" id="selbtns"><button class="g" data-f="rec">Recomendado</button><button class="g" data-f="noean">Todas las que no tienen EAN</button><button class="g" data-f="all">Todas</button><button class="g" data-f="none">Ninguna</button></div>
+<div id="selsum" style="color:var(--mut);margin-top:10px;font-size:13px"></div><div id="selcount" style="margin:2px 0 8px;font-weight:600"></div>
+<div class="tw" style="max-height:420px;overflow:auto"><table><thead><tr><th></th><th>SKU</th><th>Producto</th><th>Color</th><th>Talla</th><th>EAN actual</th><th>Avisos</th></tr></thead><tbody id="seltb"></tbody></table></div>
+<div class="row" style="margin-top:12px"><button id="selgo">Continuar con la selección</button><span id="selmsg" class="err"></span></div></div>
 <div id="res" class="hide">
   <div class="card">
     <div class="stats" id="stats"></div>
@@ -174,7 +180,7 @@ function transform(rows){
     handle:col(['handle','url handle']),sku:col(['variant sku','sku']),title:col(['title']),type:col(['type']),
     vendor:col(['vendor']),o1n:col(['option1 name']),o1v:col(['option1 value']),
     o2n:col(['option2 name']),o2v:col(['option2 value']),
-    vimg:col(['variant image','variant image url']),img:col(['image src','product image url'])
+    bar:col(['variant barcodes','variant barcode','barcode']),vimg:col(['variant image','variant image url']),img:col(['image src','product image url'])
   };
   const missing=['sku','title','type','o1v'].filter(k=>C[k]<0);
   if(missing.length)throw new Error('Faltan columnas en el CSV: '+missing.join(', ')+'. ¿Es un export de productos de Shopify?');
@@ -207,7 +213,7 @@ function transform(rows){
       nombre:(last.title||'').slice(0,35).trim(),
       talla:['size','talla'].includes(norm(last.o2n))?g(r,'o2v'):'',
       color:['color','estampado'].includes(norm(last.o1n))?g(r,'o1v'):'',
-      type,gpc:gp?gp[0]:'',flag:gp?gp[1]:2,dup:false
+      type,gpc:gp?gp[0]:'',flag:gp?gp[1]:2,dup:false,bar:g(r,'bar').replace(/^'/,'')
     };
     seen.set(sku,it);items.push(it);
   }
@@ -271,7 +277,7 @@ let PARTS=[],REPORT='',CONVLIST=[],CONVJPG=new Map();
 const MAXROWS=993; // la plantilla admite datos en las filas 6-998
 const XLSX_MIME='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
 
-function showErr(m){$('errbox').classList.remove('hide');$('errbox').textContent=m;$('res').classList.add('hide')}
+function showErr(m){$('errbox').classList.remove('hide');$('errbox').textContent=m;$('res').classList.add('hide');$('selcard').classList.add('hide')}
 
 async function buildPart(chunk){
   const zip=await JSZip.loadAsync(TEMPLATE_B64,{base64:true});
@@ -284,23 +290,55 @@ async function buildPart(chunk){
   return zip.generateAsync({type:'blob',compression:'DEFLATE',mimeType:XLSX_MIME});
 }
 
-async function load(file){WIZ.setCsv(file);
-  $('errbox').classList.add('hide');$('dlmsg').textContent='';
+let ITEMS=[],ST=null;
+const slg=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+function flagItems(){
+  for(const it of ITEMS){
+    const p=[],ss=slg(it.sku);
+    if(it.bar)p.push(['Ya tiene EAN','w',1]);
+    if(it.dup)p.push(['SKU repetido','e',2]);
+    if(it.color&&!ss.includes(slg(it.color)))p.push(['Color ≠ SKU','e',2]);
+    if(it.talla&&!ss.endsWith(slg(it.talla)))p.push(['Talla ≠ SKU','e',2]);
+    if(it.flag===2)p.push(['Sin GPC','w',3]);else if(it.flag===1)p.push(['GPC aprox.','w',3]);
+    if(it.imgConv)p.push(['Imagen no JPG/PNG','w',3]);
+    it.badges=p;it.hasEan=!!it.bar;it.incoh=p.some(b=>b[2]===2);
+  }
+}
+function count(){$('selcount').textContent=ITEMS.filter(i=>i.sel).length+' de '+ITEMS.length+' variantes seleccionadas'}
+function setSel(m){
+  for(const it of ITEMS)it.sel=m==='rec'?(!it.hasEan&&!it.incoh):m==='noean'?!it.hasEan:m==='all';
+  $('seltb').querySelectorAll('input').forEach(cb=>{cb.checked=ITEMS[+cb.dataset.i].sel});count();
+}
+function showSel(){
+  $('seltb').innerHTML=ITEMS.map((it,i)=>`<tr><td><input type="checkbox" data-i="${i}"></td><td>${esc(it.sku)}</td><td>${esc(it.nombre)}</td><td>${esc(it.color)}</td><td>${esc(it.talla)}</td><td>${esc(it.bar)}</td><td style="white-space:normal">${it.badges.map(b=>`<span style="color:var(--${b[1]==='e'?'del':'wa'})">${b[0]}</span>`).join(' · ')}</td></tr>`).join('');
+  $('selsum').textContent=`${ITEMS.length} variantes con SKU · ${ITEMS.filter(i=>!i.hasEan).length} sin EAN · ${ITEMS.filter(i=>i.hasEan).length} ya con EAN · ${ITEMS.filter(i=>i.incoh).length} con incoherencias`;
+  setSel('rec');$('selmsg').textContent='';$('selcard').classList.remove('hide');
+}
+async function load(file){
+  WIZ.setCsv(file);
+  $('errbox').classList.add('hide');$('dlmsg').textContent='';$('res').classList.add('hide');
   try{
-    const text=await file.text();
-    const rows=parseCSV(text);
+    const rows=parseCSV(await file.text());
     if(rows.length<2)throw new Error('El archivo está vacío.');
     const {items,st}=transform(rows);
     if(!items.length)throw new Error('No se ha encontrado ninguna variante con SKU.');
-    const chunks=[];
-    for(let i=0;i<items.length;i+=MAXROWS)chunks.push(items.slice(i,i+MAXROWS));
-    PARTS=[];
-    for(let p=0;p<chunks.length;p++){
-      PARTS.push({name:`import_simple_parte_${p+1}_de_${chunks.length}.xlsx`,blob:await buildPart(chunks[p]),n:chunks[p].length,from:p*MAXROWS+1,to:p*MAXROWS+chunks[p].length});
-    }
-    summarize(items,st,chunks);
+    ITEMS=items;ST=st;flagItems();showSel();
   }catch(e){showErr(e.message||String(e))}
 }
+async function build(){
+  const sel=ITEMS.filter(i=>i.sel);
+  if(!sel.length){$('selmsg').textContent='Marca al menos una variante.';return}
+  $('selmsg').textContent='Preparando…';
+  try{
+    const chunks=[];for(let i=0;i<sel.length;i+=MAXROWS)chunks.push(sel.slice(i,i+MAXROWS));
+    PARTS=[];
+    for(let p=0;p<chunks.length;p++)PARTS.push({name:`import_simple_parte_${p+1}_de_${chunks.length}.xlsx`,blob:await buildPart(chunks[p]),n:chunks[p].length,from:p*MAXROWS+1,to:p*MAXROWS+chunks[p].length});
+    summarize(sel,ST,chunks);$('selmsg').textContent='';$('res').scrollIntoView({behavior:'smooth'});
+  }catch(e){$('selmsg').textContent=e.message||String(e)}
+}
+$('selbtns').onclick=e=>{const b=e.target.closest('button[data-f]');if(b)setSel(b.dataset.f)};
+$('seltb').onchange=e=>{const c=e.target;if(c.dataset.i!==undefined){ITEMS[+c.dataset.i].sel=c.checked;count()}};
+$('selgo').onclick=build;
 
 function summarize(items,st,chunks){
   const flagged=items.filter(i=>i.flag===1),nogpc=items.filter(i=>i.flag===2);
@@ -308,7 +346,7 @@ function summarize(items,st,chunks){
   CONVLIST=[...new Map(items.filter(i=>i.imgConv).map(i=>[i.imgOrig,i])).values()];
   CONVJPG=new Map();
   const S=(v,l,c)=>`<div class="st"><b${c?` style="color:var(--${c})"`:''}>${v}</b><span>${l}</span></div>`;
-  $('stats').innerHTML=S(st.totalRows,'filas en el CSV')+S(items.length,'productos en total')+S(chunks.length,'archivos Excel')+S(st.imageOnly,'filas de solo imagen (omitidas)')+S(st.dups.length,'SKU duplicados (omitidos)',st.dups.length?'wa':'')+S(flagged.length,'GPC aproximados (revisar)',flagged.length?'wa':'')+(CONVLIST.length?S(CONVLIST.length,'imágenes a convertir a JPG','wa'):'')+(nogpc.length?S(nogpc.length,'sin GPC','del'):'');
+  $('stats').innerHTML=S(st.totalRows,'filas en el CSV')+S(items.length,'variantes seleccionadas')+S(chunks.length,'archivos Excel')+S(st.imageOnly,'filas de solo imagen (omitidas)')+S(st.dups.length,'SKU duplicados (omitidos)',st.dups.length?'wa':'')+S(flagged.length,'GPC aproximados (revisar)',flagged.length?'wa':'')+(CONVLIST.length?S(CONVLIST.length,'imágenes a convertir a JPG','wa'):'')+(nogpc.length?S(nogpc.length,'sin GPC','del'):'');
   const n=[];
   n.push(`<b>${items.length}</b> filas repartidas en <b>${chunks.length}</b> archivos de hasta ${MAXROWS} (la plantilla solo admite hasta la fila 998). En cada archivo se escribe desde la fila 6 y la fila 5 de ejemplo queda intacta.`);
   n.push(`Se omiten <b>${st.imageOnly}</b> filas del CSV que solo contienen una imagen extra (no tienen SKU, no son variantes).`);
@@ -376,16 +414,14 @@ $('convzip').onclick=async()=>{
   save('imagenes_convertidas_jpg.zip',await z.generateAsync({type:'blob',compression:'STORE',mimeType:'application/zip'}));
 };
 
-let DL=null,DLtried=false;
-async function getDL(){if(DLtried)return DL;DLtried=true;try{DL=await claude.use('downloads')}catch(e){DL=null}return DL}
-async function save(name,data){
-  const d=await getDL();
-  if(!d){$('dlmsg').textContent='La descarga directa no está disponible en esta vista. Abre el enlace de la página en el navegador e inténtalo de nuevo.';return}
-  try{await d.save({filename:name,data});$('dlmsg').textContent=''}
-  catch(e){
-    const m={declined:'',rate_limited:'Hay otra descarga pendiente de confirmar; respóndela e inténtalo de nuevo.',too_large:'El archivo es demasiado grande para descargarlo así.',rejected_extension:'Este visor no admite este tipo de archivo.',extension_not_enabled:'Este visor tiene desactivadas las descargas de este formato.',bad_request:'Error interno al preparar el archivo.'};
-    $('dlmsg').textContent=(e&&e.code in m)?m[e.code]:('No se pudo descargar'+(e&&e.code?' ('+e.code+')':'')+'.');
-  }
+let DL=null;
+try{if(typeof claude!=='undefined'&&claude.use)claude.use('downloads').then(x=>{DL=x||null}).catch(()=>{DL=null})}catch(e){DL=null}
+function save(name,data){
+  const blob=data instanceof Blob?data:new Blob([data],{type:'text/csv;charset=utf-8'});
+  const d=DL;
+  const fallback=()=>{const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),5000);$('dlmsg').textContent=''};
+  if(!d){fallback();return Promise.resolve()}
+  return d.save({filename:name,data}).then(()=>{$('dlmsg').textContent=''}).catch(e=>{if(e&&e.code==='declined')return;fallback()});
 }
 $('parts').onclick=e=>{const b=e.target.closest('button[data-i]');if(b){const p=PARTS[+b.dataset.i];if(p)save(p.name,p.blob)}};
 $('dlz').onclick=async()=>{
@@ -656,16 +692,14 @@ function show(){
   }).join('')||'<p style="color:var(--mut)">Nada que avisar.</p>';
   $('res').classList.remove('hide');
 }
-let DL=null,DLtried=false;
-async function getDL(){if(DLtried)return DL;DLtried=true;try{DL=await claude.use('downloads')}catch(e){DL=null}return DL}
-async function save(name,data){
-  const d=await getDL();
-  if(!d){$('dlmsg').textContent='La descarga directa no está disponible en esta vista. Abre el enlace de la página directamente en el navegador e inténtalo de nuevo.';return}
-  try{await d.save({filename:name,data});$('dlmsg').textContent=''}
-  catch(e){
-    const m={declined:'',rate_limited:'Hay otra descarga pendiente de confirmar; respóndela e inténtalo de nuevo.',too_large:'El archivo es demasiado grande para descargarlo así.',rejected_extension:'Este visor no admite este tipo de archivo.',extension_not_enabled:'Este visor tiene desactivadas las descargas de este formato.',bad_request:'Error interno al preparar el archivo.'};
-    $('dlmsg').textContent=(e&&e.code in m)?m[e.code]:('No se pudo descargar'+(e&&e.code?' ('+e.code+')':'')+'.');
-  }
+let DL=null;
+try{if(typeof claude!=='undefined'&&claude.use)claude.use('downloads').then(x=>{DL=x||null}).catch(()=>{DL=null})}catch(e){DL=null}
+function save(name,data){
+  const blob=data instanceof Blob?data:new Blob([data],{type:'text/csv;charset=utf-8'});
+  const d=DL;
+  const fallback=()=>{const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),5000);$('dlmsg').textContent=''};
+  if(!d){fallback();return Promise.resolve()}
+  return d.save({filename:name,data}).then(()=>{$('dlmsg').textContent=''}).catch(e=>{if(e&&e.code==='declined')return;fallback()});
 }
 $('dl').onclick=()=>OUT&&save('products_export_con_ean.csv',OUT.csv);
 $('dlr').onclick=()=>{
